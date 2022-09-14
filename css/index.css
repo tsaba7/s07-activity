@@ -1,0 +1,103 @@
+CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	padding: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+}
+
+nav > ul {
+	list-style-type: none;
+
+}
+
+nav .nav, nav .nav-logo{
+	margin:  0.5rem;
+	display: inline;
+}
+
+/* Intro Section */
+
+#intro {
+	padding:  2rem 10% 3rem;
+	text-align: center;
+}
+
+#intro .header, #intro p{
+	margin-bottom: 1rem;
+}
+
+#intro button{
+	color: white;
+	background-color: #c2195b;
+	padding: 1rem;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+/* End of Intro Section */
+
+/* Succeed-info Section */
+#succeed-info{
+	padding: 2rem 10% 3rem;
+}
+
+#succeed-info h2{
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#succeed-info h3{
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#succeed-info .card {
+	/* pag inline-block pwede ma set yung width and height */
+	/* pag may display pwede na magamit yung vertical-align */
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	/*min height mas maayos and mas consistent*/
+	min-height: 150px;
+	padding-left: 25px;
+}
+
+/* End of Succeed-info Section */
+
+/* Pre-footer */
+#pre-footer{
+	background-color: darkblue;
+	color: white;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	/*min height mas maayos and mas consistent*/
+	min-height: 150px;
+	padding-left: 25px;
+}
+/* Footer Section */
+
+footer{
+	padding:  0.7rem;
+}
+
+footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+/* End of Footer Section 
