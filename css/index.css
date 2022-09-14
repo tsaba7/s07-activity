@@ -67,7 +67,7 @@ nav .nav, nav .nav-logo{
 	/* pag may display pwede na magamit yung vertical-align */
 	display: inline-block;
 	vertical-align: top;
-	width: 33%;
+	width: 30%;
 	/*min height mas maayos and mas consistent*/
 	min-height: 150px;
 	padding-left: 25px;
@@ -75,24 +75,33 @@ nav .nav, nav .nav-logo{
 
 /* End of Succeed-info Section */
 
-/* Pre-footer */
+/* Pre-footer Section */
 #pre-footer{
-	background-color: darkblue;
+	background-color:  #002540;
 	color: white;
 }
 
-div {
+#pre-footer div {
 	display: inline-block;
 	vertical-align: top;
-	width: 33%;
+	width: 15%;
 	/*min height mas maayos and mas consistent*/
 	min-height: 150px;
-	padding-left: 25px;
+	padding: 3rem 4rem;
 }
+
+#pre-footer p{
+	margin:  0;
+}
+
+/* End of Pre-footer Section */
+
+
 /* Footer Section */
 
 footer{
 	padding:  0.7rem;
+	text-align: center;
 }
 
 footer span {
